@@ -8,17 +8,17 @@
     8  curl --version
     9  docker --version
    10  python3 --version
-   11  closec
-   12  clearcc
+   11  
+   12  
    13                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 zccc
    14  git clone https://github.com/adityajoshi12/fabric-samples-advance-topics.git
    15  ./network.sh --help
-   16  cd ..
-   17  cd test network
+   16  
+   17 
    18  cd test-network/
    19  export path
    20  ./network.sh -help
-   21  cd ..
+   21  
    22  export PATH=$PWD/bin:$PATH
    23  cd test-network/
    24  ./network.sh -help
@@ -33,16 +33,16 @@
    33  ./network.sh 
    34  ./network.sh createChannel
    35  ./network.sh  down
-   36  cd ..
-   37  ls
+   36  
+   37  
    38  cd fabric-samples
-   39  ls
+   39  
    40  cd test-network
-   41  ls
+   41  
    42  ./network.sh up
    43  ./network.sh createChannel -c phoenix 
    44  ./network.sh --help
-   45  ls
+   45  
    46  ./network.sh deployCC --help
    47  ./network.sh deployCC -ccn ../assest-transfer-basic/chaincode-go -ccl go
    48  ./network.sh deployCC -ccn ../asset-transfer-basic/chaincode-go -ccl go -verbose
@@ -51,21 +51,21 @@
    51  ./network.sh deployCC -ccn phoenix ../asset-transfer-basic/chaincode-go -ccl go
    52  ./network.sh deployCC -ccn phoenix ../asset-transfer-basic/chaincode-go/chaincode -ccl smartcontract.go -verbose 
    53  ./network.sh deployCC -ccn chaincode -ccp ../asset-transfer-basic/chaincode-go/chaincode
-   54  ls
+   54  
    55  ls channel-artifacts/
    56  cat  channel-artifacts/phoenix.block 
-   57  cd ..
-   58  ls
+   57  
+   58  
    59  cd test-
    60  cd test-network
-   61  ls
+   61  
    62  ./network.sh deployCC -ccn chaincode -ccp ../asset-transfer-basic/chaincode-go/chaincode
    63  ./network.sh deployCC -ccn chaincode -ccp ../asset-transfer-basic/chaincode-go/chaincode -ccl go
    64  ./network.sh deployCC -ccn chaincode -ccp ../asset-transfer-basic/chaincode-go/chaincode -ccl go -c phoenix
    65  apt-get install jq -y
    66  ./network.sh deployCC -ccn chaincode -ccp ../asset-transfer-basic/chaincode-go/chaincode -ccl go -c phoenix
-   67  ls
-   68  ls -l
+   67  
+   68  
    69  cat CHAINCODE_AS_A_SERVICE_TUTORIAL.md  | less
    70  apt-get install jq -y
    71  sudo apt-install code
@@ -73,75 +73,71 @@
    73  apt-install code
    74  docker ps -a
    75  cd /home/student/
-   76  ls
+   76  
    77  cd fabric-samples
-   78  ls
+   78  
    79  cd asset-transfer-basic/
-   80  l
+   80  
    81  cd chaincode-go/
-   82  ls
-   83  pwd
-   84  ls
+   82  
+   83  
+   84  
    85  cd chaincode/
-   86  ls
-   87  pwd
-   88  ls
-   89  cd ..
-   90  ls
+   86  
+   87  
+   88  
+   89  
+   90  
    91  cd chaincode/
-   92  ls
-   93  pwd
-   94  ls
-   95  cd ..
-   96  ls
-   97  cd ..
-   98  ls
-   99  pwd
-  100  cd ..
-  101  ls
+   92  
+   93  
+   94  
+   95  
+   96  
+   97  
+   98  
+   99  
+  100  
+  101  
   102  cd test-network
-  103  ;s
-  104  ls
-  105  cd ..
-  106  ls
+  103  
+  104  
+  105  
+  106  
   107  cd asset-transfer-basic/
-  108  ls
+  108  
   109  cd chaincode-go
-  110  ls
+  110  
   111  cd chaincode/
   112  cd /home/student/
-  113  ls
+  113  
   114  cd fabric-samples
-  115  cd t
+  115  
   116  cd test-network
-  117  ls
-  118  cd ..
-  119  ls
+  117  
+  118  
+  119  
   120  cd asset-transfer-basic/
-  121  ls
+  121  
   122  cd chaincode-go/
-  123  ls
+  123  
   124  cd chaincode/
-  125  ls
+  125  
   126  peer channel list
-  127  cd ..
-  128  ls
-  129  cd..
-  130  cd ..
+  127  
+  128  
+  129  
+  130  
   131  cd test-network
-  132  ls
+  132  
   133  peer channel list
-  134  ls
-  135  cd 
+  134  
+  135
   136  cd /home/student/fabric-sample
   137  cd /home/student/fabric-samples
-  138  ls
+  138  
   139  cd asset-transfer-basic/
-  140  ls
+  140  
   141  cd chaincode-java
-  142  ls
+  142  
   143  cd src/
-  144  ls
-  145  cd 
-  146  history 
-  147  history > important_commands
